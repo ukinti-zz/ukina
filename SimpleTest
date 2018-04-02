@@ -1,7 +1,7 @@
 import telebot
 import random
 import types
-bot = telebot.TeleBot(token='543196227:AAGueClEYQHByzO8nQK8z39wgwMr6uKhKAw')
+bot = telebot.TeleBot(token='477042082:AAEBDDi0BizL-RnrRH7tzHyaEDlIjcwL4N8')
 @bot.message_handler(func=lambda message: True)
 def test(msg):
     test = range(1,6)
